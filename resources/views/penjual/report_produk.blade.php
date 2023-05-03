@@ -10,7 +10,7 @@
  @foreach($data_produk as $row)
 <div class="card m-2 border border-secondary " style="width: 18rem;">
   <div class="card-body bg-light">
-    <p class="fw-bold">Produk No : {{ $no++ }}</p>
+    <p class="fw-bold">No : {{ $no++ }}</p>
     <p align="center">
         <img class="img-fluid rounded shadow-sm"
             src="{{ asset('gambar/gambar_produk/'.$row->gambar_produk) }}"
